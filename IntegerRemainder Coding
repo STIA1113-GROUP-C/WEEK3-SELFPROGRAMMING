@@ -1,0 +1,17 @@
+package selfprogramming;
+
+public class IntegerRemainder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		System.out.println(45 % 6);
+		System.out.println(2 % 2);
+		System.out.println(8 % 20);
+		System.out.println(230857%10);
+		System.out.println(658236489%10000);
+		System.out.println(7342%100);
+		
+	}
+
+}
