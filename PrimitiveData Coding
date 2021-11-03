@@ -1,0 +1,17 @@
+package selfprogramming;
+
+public class PrimitiveData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		byte sum1 = 100 + 27;
+		short sum2 = 389 - 29867;
+		char gred = 'A'; 
+				
+	    System.out.println("sum1 is " + sum1);
+		System.out.println("sum2 is " + sum2);
+		System.out.println("gred is " + gred);
+	}
+
+}
