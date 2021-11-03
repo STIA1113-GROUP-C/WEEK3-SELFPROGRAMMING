@@ -1,0 +1,22 @@
+package selfprogramming;
+
+public class Precedence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(9.0 / 5.0);
+		System.out.println(695 % 20);
+		System.out.println(7 + 6 * 5);
+		System.out.println(7 * 6 + 5);
+		System.out.println(248 % 100 / 5);
+		System.out.println(6 * 3 - 9 / 4);
+		System.out.println((5 - 7) * 4);
+		System.out.println(6 + (18 % (17 - 12)));
+		System.out.println((35.0 + 22.4 + 11.9) / 3.0);
+
+		double sum1 = (35.0 + 22.4 + 11.9) / 3.0;
+		System.out.printf("%.2f", sum1);
+	}
+
+}
