@@ -1,0 +1,33 @@
+package selfprogramming;
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int m = 4;
+		int result = 3 * (++m);
+		
+		System.out.println("result is " + result);
+		System.out.println("m is " + m);
+		
+		int n = 4;
+		int result2 = 3 * (n++);
+		
+		System.out.println("result2 is " + result2);
+		System.out.println("n is " + n);
+		
+		int a = 4;
+		int result3 = 3 * (--a);
+		
+		System.out.println("result3 is " + result3);
+		System.out.println("a is " + a);
+		
+		int b = 4;
+		int result4 = 3 * (b--);
+		
+		System.out.println("result4 is " + result4);
+		System.out.println("b is " + b);
+	}
+
+}
